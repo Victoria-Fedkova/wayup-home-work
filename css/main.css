@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    font-weight: 500;
+    background: #FDFCEF;
+}
+.header {
+    padding-top: 60px;
+}
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+section{
+    padding-top: 120px;
+}
+p {
+    font-size: 18px;
+    line-height: 1.37em;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+font-weight: 700;
+line-height: 1.4em;
+margin: 0;
+}
+h1{
+font-size: 50px;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.button {
+    background: #FF6861;
+    border-radius: 100px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    padding: 22px 0;
+    font-weight: 700;
+    line-height: 1.19em;
+    display: block;
+    width: 216px;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+.button:hover{
+    background:  salmon;
+}
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 82px;
+}
+.hero-text {
+    width: 465px;
+  margin-bottom: 30px;
+}
+.hero-text h2 {
+    text-align: left;
+    margin-bottom: 0;
+}
+.intro {
+    font-style: 18px;
+    margin: 30px 0;   
+}
+.features-container{
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    width: 720px;
+    margin: 0 auto;
+}
+.feature{
+    display: flex;
+    align-items: center;
+    gap: 34px;
+}
+.feature-logo{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    width: 73px;
+    height: 73px;
+    /* transition: all 1s ease; */
+}
+.feature-title{
+    font-size: 30px;
+    margin-bottom: 11px;
+}
+.feature:hover  {
+    color: #665f5f;
+}
+.action-wrap{
+    background: linear-gradient(102deg, #FFF6DF 17.38%, #FFDFDE 81.25%);
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    padding: 75px 122px 75px 122px;
+    gap: 101px;
+    justify-content: center;
+}
+
+footer{
+    padding: 120px 0;
+}
+.credits{
+    font-size: 15px;
+    text-align: center;
+}
